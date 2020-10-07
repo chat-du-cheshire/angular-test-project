@@ -1,6 +1,18 @@
 # AngularTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
+Тестовый проект. Необходимо реализовать любую из 2х страниц на выбор. [Макет тут](https://www.figma.com/file/V5e56vdP96kYAHSAyetovT/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-(Frontend))
+
+## Fake Backend
+
+Мок бекенда реализован с помощю [json-server](https://github.com/typicode/json-server). Для старта `npm run backend`. Бекенд будет доступен на [http://localhost:3000](http://localhost:3000) 
+
+Для страницы профиля пользователя api:
+* таба информации доступно по урлу [http://localhost:3000/profile](http://localhost:3000/profile)
+* таба ролей доступно по урлу [http://localhost:3000/userroles](http://localhost:3000/userroles)
+
+Для страницы ролей api:
+* список ролей [http://localhost:3000/roles](http://localhost:3000/roles)
+* таб деталей аудита роли [http://localhost:3000/audit](http://localhost:3000/audit)
 
 ## Development server
 
