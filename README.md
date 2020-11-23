@@ -9,6 +9,7 @@
 Для страницы профиля пользователя api:
 * таба информации доступно по урлу [http://localhost:3000/profile](http://localhost:3000/profile)
 * таба ролей доступно по урлу [http://localhost:3000/userroles](http://localhost:3000/userroles)
+* каждый таб должен быть выполнен ввиде отдельного url
 
 Для страницы ролей api:
 * список ролей [http://localhost:3000/roles](http://localhost:3000/roles)
